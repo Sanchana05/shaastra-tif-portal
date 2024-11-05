@@ -8,7 +8,7 @@ type CardProps = {
 };
 
 const Cards: React.FC<CardProps> = ({ title, para, content }) => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen,setIsOpen] = useState(false);
 
   return (
     <div className="">
